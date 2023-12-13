@@ -1,0 +1,20 @@
+{
+  "medium": {
+    "accessToken": "your_medium_access_token_here"
+  },
+  "scheduler": {
+    "defaultScheduleType": "daily"
+  },
+  "database": {
+    "host": "localhost",
+    "user": "your_database_user",
+    "password": "your_database_password",
+    "name": "your_database_name"
+  },
+  "limits": {
+    "maxArticlesPerDay": 5
+  },
+  "logging": {
+    "level": "info"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "daily-article-stream",
+  "version": "1.0.0",
+  "description": "Automatically create and publish a stream of daily articles to Medium based on selected topics and keywords.",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "medium",
+    "article",
+    "automation",
+    "stream",
+    "publishing",
+    "cli",
+    "cron"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "node-cron": "^2.0.3",
+    "chalk": "^4.1.0"
+  }
+}
